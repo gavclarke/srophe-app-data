@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Colm O'Clubhan Prosopography: listing names, places and organisations</title>
+            <respStmt>
+               <resp>XML template created by</resp>
+               <persName ref="GC">Gavin Clarke</persName>
+               <note>Created on <date when="2022-09-10">September 10, 2022</date>.</note>
+            </respStmt>
+            <respStmt>
+               <resp>Initial encoding completed on <date when="2022-09-10">September 10, 2022</date>
+                  by</resp>
+               <persName ref="GC">Gavin Clarke</persName>
+            </respStmt>
+               <respStmt>
+               <resp>Prosopography IDs, terms, and notes determined by</resp>
+               <persName ref="GC">Gavin Clarke</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Gavin Clarke</publisher>
+            <pubPlace>London, UK</pubPlace>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+            <p>People and Places encoded in this file are pulled from the following linked Colm
+               O'Clubhan project texts:
+               <ref xml:id="FG">Fair Game</ref>
+               <ref xml:id="RFS">Reasons for Staying</ref>
+               <ref xml:id="FRR">Friends of Rio Rita's</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <head>List of places mentioned in the Colm O'Clubhan project texts:</head>
+
+            <place xml:id="TI">
+               <placeName>Tiber</placeName>
+               <placeName source="http://viaf.org/viaf/316430945">VIAF</placeName>
+               <location>
+               </location>
+               <note>The Tiber River, Italy.</note>
+            </place>
+           
+            <place xml:id="CLH">
+               <placeName>Clapham</placeName>
+               <placeName source="http://viaf.org/viaf/157279333">VIAF</placeName>
+               <location>
+               </location>
+               <note>Clapham, a town centre in South London.</note>
+            </place>
+            
+            <place xml:id="BX">
+               <placeName>Brixton</placeName>
+               <placeName source="http://viaf.org/viaf/140699228R">VIAF</placeName>
+               <location>
+                  <geo>51° 27' 43.20" N, 0° 06' 50.40" E</geo>
+               </location>
+               <note>Brixton is a district in south London, part of the London Borough of Lambeth, 
+                  England. The area is identified in the London Plan as one of 35 major centres 
+                  in Greater London. Brixton is mainly residential, though includes Brixton Market 
+                  and a substantial retail sector. It is a multi-ethnic community, with a large 
+                  percentage of its population of Afro-Caribbean descent. Home to O'Clubhan throughout
+                  his years in London and the base for the South London Gay Centre and the theatrical
+                  troupe 'The Brixton Faeries'.</note>
+            </place>
+           
+            <place xml:id="LN">
+               <placeName>London</placeName>
+               <placeName source="http://viaf.org/viaf/261467287">London</placeName>
+               <location>
+                  <geo>38.820450,-77.050552</geo>
+                  <country key="US">United Kingdom</country>
+               </location>
+               <note></note>
+            </place>
+           
+            <place xml:id="SS">
+               <placeName>Sitges</placeName>
+               <placeName source="http://viaf.org/viaf/143070384">VIAF</placeName>
+               <location>
+                  <geo>41.2392039, 1.8097337</geo>
+               </location>
+               <note>Town near Barcelona. O'Clubhan spent some years in the late 1970s and early 
+               1980s living in Barcelona. The characters Dermot and Felix in Fair Game take a 
+               holiday in Sitges.</note>
+            </place>
+            
+            <place xml:id="WOR">
+               <placeName>Worcester</placeName>
+               <placeName source="http://viaf.org/viaf/143070384">VIAF</placeName>
+               <location>
+                  <geo>52.1966,-2.2318?z=13</geo>
+               </location>
+               <note>Worcester is a city in central England’s West Midlands region. By the River Severn, medieval Worcester 
+                  Cathedral houses royal tombs, a crypt and cloisters. .</note>
+            </place>
+            
+            
+            <place xml:id="HD">
+               <placeName>Hereford</placeName>
+               <placeName source="http://viaf.org/viaf/133696747">VIAF</placeName>
+               <location>
+                  <geo>52.0530,-2.7451?z=13</geo>
+               </location>
+               <note>Nearest city to the homeplace of the character Frank in 'Fair Game'.</note>
+            </place>
+            
+            <place xml:id="AnF">
+               <placeName>Angel Falls</placeName>
+               <placeName source="http://viaf.org/viaf/315134318">VIAF</placeName>
+               <location>
+                  <geo>5.96874,-62.53648?z=19</geo>
+               </location>
+               <note>Homeplace of the character Frank in 'Fair Game'.</note>
+            </place>
+            
+            <place xml:id="BD">
+               <placeName>Bromyard</placeName>
+               <placeName source="http://viaf.org/viaf/141896701">VIAF</placeName>
+               <location>
+                  <geo>52.1885,-2.5107?z=13</geo>
+               </location>
+               <note>Homeplace of the character Frank in 'Fair Game'.</note>
+            </place>
+            
+            <place xml:id="CT">
+               <placeName>Cheshunt</placeName>
+               <placeName source="http://viaf.org/viaf/141896701">VIAF</placeName>
+               <location>
+                  <geo>51.7020520, -0.0335908</geo>
+               </location>
+               <note>Town of Dermot's aunt with who he first stays in on move to England, drawn from Colm O'Clubhan's biography as he
+                  stayed there on first moving over.</note>
+            </place>
+            
+            <place xml:id="SaP">
+               <placeName>Sandown Park</placeName>
+               <location>
+                  <geo>51.37705,-0.36355?z=19</geo>
+               </location>
+               <note>Racecourse</note>
+            </place>
+            
+            <place>
+               <placeName xml:id="WF"></placeName>
+               <placeName>Wembley Football Stadium</placeName>
+               <placeName source="http://viaf.org/viaf/316597562">VIAF</placeName>
+               <desc>
+                  A football stadium in Wembley, London. It opened in 2007 on the site of the original Wembley Stadium, which was demolished 
+                  from 2002 to 2003. The stadium hosts major football matches including home matches of the England national football team, 
+                  and the FA Cup Final. Wembley Stadium is owned by the governing body of English football, the Football Association (the FA).
+               </desc>
+               <location>
+                  <geo>geo:51.55607,-0.27960?z=18</geo>
+               </location>
+            </place>
+            
+            <place xml:id="SN">
+               <placeName>Sliabh Sneacht</placeName>
+               <placeName source="https://mountainviews.ie/summit/250/">Mountain Views website</placeName>
+               <location>
+                  <geo>54.98074,-8.12013?z=19</geo>
+               </location>
+               <note>A mountain in the middle of the Inishowen peninsula in County Donegal, Ireland.</note>
+            </place>
+            
+            <place xml:id="WE">
+               <placeName>West End</placeName>
+               <placeName source="http://viaf.org/viaf/137376440">VIAF</placeName>
+               <location>
+                  <geo>51.51042,-0.13012?z=19</geo>
+               </location>
+               <note>The commercial and cultural centre of London, home to many gay bars and to 'Theatreland'.</note>
+            </place>
+            
+            <place xml:id="HH">
+               <placeName>Hampstead Heath</placeName>
+               <placeName source="http://viaf.org/viaf/315529961">VIAF</placeName>
+               <location>
+                  <geo>51.5641,-0.1644?z=14</geo>
+               </location>
+               <note>Parts of Hampstead Heath in London have for many years been know a popular gay cruising areas. 
+                  From the 19th to mid-20th century, queer men might pick up guardsmen and other available men, or ‘trade’, 
+                  for sex.</note>
+            </place>
+        
+            <place xml:id="KR">
+               <placeName>Kensal Rise</placeName>
+               <placeName source="http://viaf.org/viaf/9157159867878791815">VIAF</placeName>
+               <location>
+                  <geo>51.5345,-0.2201?z=16</geo>
+               </location>
+               <note> An area of North London which developed around the train station it opened in 1873 as Kensal Green, 
+                  replacing Kensal Green &amp; Harlesden railway station which opened in 1861 at the crossing of Green Lane 
+                  (later Wrottesley Road), lying in between the present station and Willesden Junction. The present station 
+                  was renamed Kensal Rise in 1890.</note>
+            </place>
+        
+         </listPlace>
+         
+         
+         
+         <listPerson>
+            <head>List of historical people mentioned in Colm O'Clubhan corpus.</head>
+            
+            <person xml:id="BoB" source="historical">
+               <persName type="display">Björn Borg</persName>
+               <persName source="http://viaf.org/viaf/221956283">VIAF</persName>
+               <persName type="full"><surname>Borg</surname>, <forename type="first">Björn</forename> <forename type="middle">Rune</forename></persName>
+               <birth when="1938">1824</birth>
+               <sex>male</sex>
+               <note><p>Björn Rune Borg (Swedish pronunciation: [ˈbjœːɳ ˈbɔrj] (listen); born 6 June 1956) 
+                  is a Swedish former world No. 1 tennis player. Between 1974 and 1981, he became the first 
+                  man in the Open Era to win 11 Grand Slam singles titles with six at the French Open and 
+                  five consecutively at Wimbledon.</p></note>
+            </person>
+            
+            <person xml:id="BoU" source="historical">
+               <persName type="display">Brian Boru</persName>
+               <persName source="http://viaf.org/viaf/150871522">VIAF</persName>
+               <persName type="full"><surname>mac Cennétig</surname>, <forename type="first">Brian </forename> <forename type="middle"></forename></persName>
+               <birth when="0941">941</birth>
+               <death when="1014">1014</death>
+               <sex>male</sex>
+               <note><p>Brian Boru (Middle Irish: Brian Bóruma mac Cennétig; modern Irish: Brian Bóramha; c. 941 – 23 April 1014) 
+                  was an Irish king who ended the domination of the High Kingship of Ireland by the Uí Néill and probably ended 
+                  Viking invasion/domination of Ireland.</p></note>
+            </person>
+            
+            <person xml:id="BoC" source="historical">
+               <persName type="display">Bobby Charlton</persName>
+               <persName source="http://viaf.org/viaf/81602805">VIAF</persName>
+               <persName type="full"><surname>Charlton</surname>, <forename type="first">Bobby</forename> <forename type="middle"></forename></persName>
+               <birth when="1937">1937</birth>
+               <sex>male</sex>
+               <note><p>Sir Robert Charlton CBE (born 11 October 1937) is an English former footballer who played either as a 
+                  midfielder or a forward. Considered one of the greatest players of all time, he was a member of the 
+                  England team that won the 1966 FIFA World Cup, the year he also won the Ballon d'Or. </p></note>
+            </person>
+            
+            <person xml:id="OlC" source="historical">
+               <persName type="display">Oliver Cromwell</persName>
+               <persName source=" http://viaf.org/viaf/34498004">VIAF</persName>
+               <persName type="full"><surname>Cromwell</surname>, <forename type="first">Oliver</forename> <forename type="middle"></forename></persName>
+               <birth when="1599">1937</birth>
+               <death when="1658">1658</death>
+               <sex>male</sex>
+               <note><p>Oliver Cromwell was an English general and statesman who, first as a subordinate and later as Commander-in-Chief, 
+                  led armies of the Parliament of England against King Charles I during the English Civil War, subsequently ruling the 
+                  British Isles as Lord Protector from 1653 until his death in 1658. He acted simultaneously as head of state and head of 
+                  government of the new republican commonwealth. </p></note>
+            </person>
+            
+            <person xml:id="BoF" source="historical">
+               <persName type="display">Bobby Fischer</persName>
+               <persName source="http://viaf.org/viaf/46772260">VIAF</persName>
+               <persName type="full"><surname>Fischer</surname>, <forename type="first">Bobby</forename> <forename type="middle"></forename></persName>
+               <birth when="1934">1934</birth>
+               <death when="2008">2008</death>
+               <sex>male</sex>
+               <note><p>Robert James Fischer (March 9, 1943 – January 17, 2008) was an American chess grandmaster and the eleventh 
+                  World Chess Champion. </p></note>
+            </person>
+            
+            <person xml:id="JeC" source="historical">
+               <persName type="display">Jesus Christ</persName>
+               <persName source="http://viaf.org/viaf/38323081">VIAF</persName>
+               <persName type="full"><surname></surname>, <forename type="first">Jesus</forename> <forename type="middle"></forename></persName>
+               <sex>male</sex>
+               <note><p>Jesus[d] (c. 4 BC – AD 30 or 33), also referred to as Jesus of Nazareth or Jesus Christ was a first-century Jewish 
+                  preacher and religious leader.[10] He is the central figure of Christianity, the world's largest religion. Most 
+                  Christians believe he is the incarnation of God the Son and the awaited messiah (the Christ), prophesied in the Hebrew Bible.
+               </p></note>
+            </person>
+            
+            <person xml:id="NeK" source="historical">
+               <persName type="display">Neil Kinnock</persName>
+               <persName source="http://viaf.org/viaf/46772260">VIAF</persName>
+               <persName type="full"><surname>Kinnock</surname>, <forename type="first">Neil</forename> <forename type="middle"></forename></persName>
+               <birth when="1942">1942</birth>
+               <sex>male</sex>
+               <note><p>Neil Gordon Kinnock, Baron Kinnock PC (born 28 March 1942), is a British former politician. As a member of 
+                  the Labour Party, he served as a Member of Parliament from 1970 until 1995, first for Bedwellty and then for Islwyn.
+                  He was the Leader of the Labour Party and Leader of the Opposition from 1983 until 1992, and Vice-President of the 
+                  European Commission from 1999 to 2004. Kinnock was considered as being on the soft left of the Labour Party.</p></note>
+            </person>
+            
+            <person xml:id="OlK" source="historical">
+               <persName type="display">Olga Korbut</persName>
+               <persName type="full"><surname>Tosca</surname>, <forename type="first">Floria</forename></persName>
+               <birth when="1955">1934</birth>
+               <sex>female</sex>
+               <note><p>Olga Valentinovna Korbut is a former gymnast who competed for the Soviet Union. Nicknamed the "Sparrow from Minsk", 
+                  she won four gold medals and two silver medals at the Summer Olympic Games, in which she competed in 1972 and 1976 for 
+                  the Soviet team, and was the inaugural inductee to the International Gymnastics Hall of Fame in 1988.</p></note>
+            </person>
+            
+            <person xml:id="Tos" source="fictional">
+               <persName type="display">Tos</persName>
+               <persName source="http://viaf.org/viaf/113881929">VIAF</persName>
+               <persName type="full"><surname>Korbut</surname>, <forename type="first">Olga</forename> <forename type="middle">Valentinovna</forename></persName>
+               <birth when="1955">1934</birth>
+               <sex>female</sex>
+               <note><p>Fictional character of a singer in Giacomo Puccini's opera Tosca drawn from Victorien Sardou's play 'La Tosca'. </p></note>
+            </person>
+            
+            
+            <person xml:id="MoT" source="historical">
+               <persName type="display">Mother Teresa</persName>
+               <persName source="http://viaf.org/viaf/95161232">VIAF</persName>
+               <persName type="full"><surname>Bojaxhiu</surname>, <forename type="first">Mary Teresa</forename> <forename type="middle">Valentinovna</forename></persName>
+               <birth when="1955">1934</birth>
+               <death when="1997">1997</death>
+               <sex>female</sex>
+               <note><p>Mother Teresa, also known as Saint Teresa of Calcutta, was an Albanian-Indian Catholic nun who, in 1950, founded the 
+                  Missionaries of Charity. Although her passport name was Mary Teresa Bojaxhiu, she was born Anjezë Gonxhe Bojaxhiu 
+                  (Albanian: [aˈɲɛzə ˈɡɔndʒɛ bɔjaˈdʒiu]) in Üsküb[a]—now Skopje, capital of North Macedonia. After living in Skopje for eighteen 
+                  years, she moved to Ireland and then to India, where she worked as a misssionary for most of her life.</p></note>
+            </person>
+            
+            <person xml:id="HaP" source="historical">
+               <persName type="display">Harvey Procter</persName>
+               <persName source="http://viaf.org/viaf/7212150749022516420005">VIAF</persName>
+               <persName type="full"><surname>Procter</surname>, <forename type="first">Harvey</forename> <forename type="middle">Keith</forename></persName>
+               <birth when="1947">1947</birth>
+               <sex>male</sex>
+               <note><p>Keith Harvey Proctor is a British former Conservative Member of Parliament. A member of the Monday Club, he represented
+                  Basildon from 1979 to 1983 and Billericay from 1983 to 1987. Proctor became embroiled in a scandal involving sexual relationships 
+                  with males under 21 which culminated in criminal convictions and ended his parliamentary career.</p></note>
+            </person>
+            
+            <person xml:id="MaT" source="historical">
+               <persName type="display">Margaret Thatcher</persName>
+               <persName source="http://viaf.org/viaf/102379347">VIAF</persName>
+               <persName type="full"><surname>Thatcher</surname>, <forename type="first">Margaret</forename> <forename type="middle">Hilda</forename></persName>
+               <birth when="1925">1925</birth>
+               <death when="2013">2013</death>
+               <sex>female</sex>
+               <note><p>Margaret Hilda Thatcher, Baroness Thatcher, LG, OM, DStJ, PC, FRS, HonFRSC (née Roberts), was Prime Minister of the 
+                  United Kingdom from 1979 to 1990 and Leader of the Conservative Party from 1975 to 1990. She was the first female British 
+                  prime minister and the longest-serving British prime minister of the 20th century. As prime minister, she implemented 
+                  policies that became known as Thatcherism. A Soviet journalist dubbed her the "Iron Lady", a nickname that became associated 
+                  with her uncompromising politics and leadership style. A figure roundly despised by the community in which O'Clubhan lived 
+               for her vehement anti-union stance, for the respressive policing approach towards the Afro-Carribean community and conservatism and failure to
+               reform laws pertaining to equality legistation and to the age of consent for homosexuals. </p></note>
+            </person>
+            
+            <person xml:id="DaT" source="historical">
+               <persName type="display">Daley Thompson</persName>
+               <persName source="http://viaf.org/viaf/282772448">VIAF</persName>
+               <persName type="full"><surname>Thompson</surname>, <forename type="first">Daley</forename> <forename type="middle"></forename></persName>
+               <birth when="1947">1947</birth>
+               <sex>male</sex>
+               <note><p>Francis Morgan Ayodélé Thompson, CBE, better known as Daley Thompson, is a British former decathlete. 
+                  He won the decathlon gold medal at the Olympic Games in 1980 and 1984, and broke the world record for the event four times. 
+                  He was unbeaten in competition for nine years
+               </p></note>
+            </person>
+            
+     
+            
+            <person xml:id="TeV" source="historical">
+               <persName type="display">Terry Venables</persName>
+               <persName source=" http://viaf.org/viaf/38163752">VIAF</persName>
+               <persName type="full"><surname>Venables</surname>, <forename type="first">Terry</forename> <forename type="middle"></forename></persName>
+               <birth when="1958">1958</birth>
+               <sex>male</sex>
+               <note><p>Terence Frederick Venables is an English former football player and manager, and an author. During the 1960s and '70s, he 
+                  played for various clubs including Chelsea, Tottenham Hotspur and Queens Park Rangers, and gained two caps for England. 
+                  He guided Tottenham Hotspur to FA Cup victory in 1991./He also managed Middlesbrough and Leeds United. As the England national 
+                  team manager from 1994 to 1996, he reached the semi-finals of the 1996 European Championships, and managed Australia from 1997 to 1998.
+               </p></note>
+            </person>
+            
+            <person xml:id="LeT" source="historical">
+               <persName type="display">Leon Trotski</persName>
+               <persName source="http://viaf.org/viaf/19685134">VIAF</persName>
+               <persName type="full"><surname>Thompson</surname>, <forename type="first">Daley</forename> <forename type="middle"></forename></persName>
+               <birth when="1879">1879</birth>
+               <death when="1940">1940</death>
+               <sex>male</sex>
+               <note><p>Lev Davidovich Bronstein, better known as Leon Trotsky, was a Russian-Ukrainian Marxist revolutionary, political theorist and politician. 
+                  Ideologically a Marxist, his developments to the ideology are called Trotskyism.
+               </p></note>
+            </person>
+            
+            <person xml:id="MaW" source="historical">
+               <persName type="display">May West</persName>
+               <persName source="http://viaf.org/viaf/19685134">VIAF</persName>
+               <persName type="full"><surname>Thompson</surname>, <forename type="first">Daley</forename> <forename type="middle"></forename></persName>
+               <birth when="1893">1893</birth>
+               <death when="1980">1980</death>
+               <sex>female</sex>
+               <note><p>Mae West (born Mary Jane West; August 17, 1893 – November 22, 1980) was an American stage and film actress, playwright, 
+                  screenwriter, singer, and sex symbol whose entertainment career spanned over seven decades.
+               </p></note>
+            </person>
+            
+            <person xml:id="ClG" source="historical">
+               <persName type="display">Clark Gable</persName>
+               <persName source="http://viaf.org/viaf/32004876">VIAF</persName>
+               <persName type="full"><surname>Thompson</surname>, <forename type="first">Daley</forename> <forename type="middle"></forename></persName>
+               <birth when="1901">1901</birth>
+               <death when="1960">1960</death>
+               <sex>male</sex>
+               <note><p>William Clark Gable was an American film actor, often referred to as "The King of Hollywood".He had roles in more than 60 motion pictures 
+                  in multiple genres during a career that lasted 37 years, three decades of which was as a leading man. Gable died of a heart attack at the age of 59; 
+                  his final on-screen appearance was as an aging cowboy in The Misfits, released posthumously in 1961..
+               </p></note>
+            </person>
+            
+            <person xml:id="MoC" source="historical">
+               <persName type="display">Montgomery Clift</persName>
+               <persName source="http://viaf.org/viaf/12318841">VIAF</persName>
+               <persName type="full"><surname>Clift</surname>, <forename type="first">Montgomery</forename> <forename type="middle"></forename></persName>
+               <birth when="1920">1920</birth>
+               <death when="1966">1966</death>
+               <sex>female</sex>
+               <note><p>Edward Montgomery Clift was an American actor. A four-time Academy Award nominee, The New York Times said he was known for his portrayal 
+                  of "moody, sensitive young men".
+               </p></note>
+            </person>
+            
+            <person xml:id="MaM" source="historical">
+               <persName type="display">Maryln Monroe</persName>
+               <persName source="http://viaf.org/viaf/27069077">VIAF</persName>
+               <persName type="full"><surname>Monrow</surname>, <forename type="first">Maryln</forename> <forename type="middle"></forename></persName>
+               <birth when="1920">1920</birth>
+               <death when="1966">1966</death>
+               <sex>female</sex>
+               <note><p>Marilyn Monroe (born Norma Jeane Mortenson) was an American actress, singer, and model. Famous for playing comedic "blonde bombshell"
+                  characters, she became one of the most popular sex symbols of the 1950s and early 1960s, as well as an emblem of the era's sexual revolution. 
+                  She was a top-billed actress for a decade, and her films grossed $200 million (equivalent to $2 billion in 2021) by the time of her death in 1962.
+                  Long after her death, Monroe remains a major icon of pop culture and a gay icon. In 1999, the American Film Institute ranked her sixth on their list
+                  of the greatest female screen legends from the Golden Age of Hollywood..
+               </p></note>
+            </person>
+            
+            <person xml:id="CaM" source="historical">
+               <persName type="display">Carmen Miranda</persName>
+               <persName source="http://viaf.org/viaf/27069077">VIAF</persName>
+               <persName type="full"><surname>Monrow</surname>, <forename type="first">Maryln</forename> <forename type="middle"></forename></persName>
+               <birth when="1920">1920</birth>
+               <death when="1966">1966</death>
+               <sex>female</sex>
+               <note><p>Carmen Miranda (born Maria do Carmo Miranda da Cunha), was a Portuguese-born Brazilian samba singer, dancer, Broadway actress and film 
+                  star who was active from the late 1920s onwards. Nicknamed "The Brazilian Bombshell", Miranda was known for her signature fruit hat outfit that 
+                  she wore in her American films. As a young woman, she designed hats in a boutique before making her first recordings with composer Josué de Barros 
+                  in 1929. Miranda's 1930 recording of "Taí (Pra Você Gostar de Mim)", written by Joubert de Carvalho, catapulted her to stardom in Brazil as the 
+                  foremost interpreter of samba.
+               </p></note>
+            </person> 
+            
+            
+         </listPerson>
+         
+         <listOrg>
+            
+            <head>List of organisations and businesses mentioned in the Colm O'Clubhan corpus.</head>
+           
+            <org>
+               <orgName xml:id="Heaven"></orgName>
+               <orgName>Heaven</orgName>
+               <desc>London Gay club Heaven was opened in December 1979 by Jeremy Norman in a former night club called Global Village, 
+                  which was housed in the arches beneath Charing Cross railway station, once part of Adelphi Arches, a large wine-cellar 
+                  for the hotel above. Norman was also chairman of Burke's Peerage, the publishers.</desc>
+               <location>
+                  <geo>geo: 51.5078650, -0.1245597</geo>
+               </location>
+            </org>
+            
+            <org>
+               <orgName xml:id="MandS"></orgName>
+               <orgName>M&amp;S</orgName>
+               <orgName source="http://viaf.org/viaf/158248557">VIAF</orgName>
+               <desc>M&amp;S was founded in 1884 by Michael Marks and Thomas Spencer in Leeds. Marks and Spencer Group plc (commonly 
+                  abbreviated to M&amp;S and colloquially known as Marks's or Marks &amp; Sparks) is a major British multinational 
+                  retailer with headquarters in Paddington, London, England, that specialises in selling clothing, beauty, home 
+                  products and food products. .</desc>
+            </org>
+            
+            <org>
+               <orgName xml:id="Sainsburys"></orgName>
+               <orgName source="http://viaf.org/viaf/146359391">VIAF</orgName>
+               <orgName>Sainsbury's</orgName>
+               <desc>Founded in 1869 by John James Sainsbury with a shop in Drury Lane, London, the company was the largest UK retailer 
+                  of groceries for most of the 20th century.</desc>
+            </org>
+            
+            <org>
+               <orgName xml:id="Tesco"></orgName>
+               <orgName>Tesco's</orgName>
+               <orgName source="http://viaf.org/viaf/136016327">VIAF</orgName>
+               <desc>Tesco was founded in 1919 by Jack Cohen as a group of market stalls in Hackney, London. The Tesco name first appeared 
+                  in 1924, after Cohen purchased a shipment of tea from T. E. Stockwell and combined those three initials with the first 
+                  two letters of his surname. It is now a large multi-national PLC,  a British multinational groceries and general merchandise 
+                  retailer headquartered in Welwyn Garden City, England</desc>
+            </org>
+            
+            <org>
+               <orgName xml:id="SwS"></orgName>
+               <orgName>Safeways's</orgName>
+               <desc>English supermarket</desc>
+            </org>
+            
+            <org>
+               <orgName xml:id="TBE"></orgName>
+               <orgName>The Brief Encounter</orgName>
+               <desc>
+                  The Brief Encounter was a gay bar in St Martin's Lane in the West End of London, perhaps named after the 1945 film 
+                  (screenplay by Noël Coward).
+               </desc>
+              <location>
+                 <geo>geo:51.51012,-0.12726?z=19</geo>
+              </location>
+            </org>
+            
+            <org>
+               <orgName xml:id="POW"></orgName>
+               <orgName>The Prince of Wales</orgName>
+               <addName>The Ladi Di</addName>
+               <desc>
+                  Pub in Brixton that takes its name from a 19th century hotel formerly on the site.
+               </desc>
+               <location>
+                  <geo>geo:51.47150,-0.13494?z=19</geo>
+               </location>
+            </org>
+            
+            <org>
+               <orgName xml:id="TRH"></orgName>
+               <orgName>The Rosemount Hotel</orgName>
+               <desc>
+                  Hotel in Hereford, seemingly now closed.
+               </desc>
+               <location>
+                  <geo></geo>
+               </location>
+            </org>
+            
+         
+            
+            <org>
+               <orgName xml:id="HX"></orgName>
+               <orgName>Hallifax</orgName>
+               <desc>
+                  Halifax is a minster and market town in the Metropolitan Borough of Calderdale in West Yorkshire, England. It is the commercial, cultural 
+                  and administrative centre of the borough, and the headquarters of Calderdale Council. In the 15th century, the town became an economic hub 
+                  of the old West Riding of Yorkshire, primarily in woollen manufacture. Halifax is the largest town in the wider Calderdale borough. Halifax 
+                  was a thriving mill town during the industrial revolution.
+               </desc>
+               <location>
+                  <geo>geo:51.55607,-0.27960?z=18</geo>
+               </location>
+            </org>
+            
+            <org>
+               <orgName xml:id="MDS"></orgName>
+               <orgName>McDonald's</orgName>
+               <orgName source="http://viaf.org/viaf/136891459">VIAF</orgName>
+               <desc>
+                  McDonald's Corporation is an American-based multinational fast food chain.
+               </desc>
+            </org>
+            
+            <org>
+               <orgName xml:id="BUS"></orgName>
+               <orgName>Bulmers</orgName>
+               <orgName source="http://viaf.org/viaf/315944902">VIAF</orgName>
+               <desc>
+                  Cider making company.
+               </desc>
+            </org>
+          
+            <org>
+               <orgName xml:id="SUV"></orgName>
+               <orgName>Sun Valley</orgName>
+               <desc>Food and drinks company.
+               </desc>
+            </org>
+            
+            <org>
+               <orgName xml:id="StS"></orgName>
+               <orgName>Studs</orgName>
+               <desc>Fictional bar appearing in 'Fair Game' owned by Jordi.
+               </desc>
+            </org>
+            
+            
+         </listOrg>
+      </body>
+   </text>
+</TEI>
